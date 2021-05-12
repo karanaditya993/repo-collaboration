@@ -5,3 +5,12 @@ const footerAnimation = () => {
 }
 
 footerAnimation()
+function renderNavigation() {
+	$("body").append("navigation");
+}
+
+function myFunction() {
+	renderNavigation();
+}
+
+myFunction();
